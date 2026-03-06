@@ -1,4 +1,4 @@
-# ---- Python / OS ----
+# Python / OS 
 __pycache__/
 *.py[cod]
 *.so
@@ -10,22 +10,22 @@ dist/
 .ipynb_checkpoints/
 .DS_Store
 
-# ---- Virtual envs ----
+# Virtual envs 
 .venv/
 venv/
 ENV/
 env/
 .conda/
 
-# ---- IDEs ----
+# IDEs 
 .vscode/
 .idea/
 *.iml
 
-# ---- Logs ----
+# Logs 
 *.log
 
-# ---- ML artifacts / outputs ----
+# ML artifacts / outputs 
 artifacts/
 outputs/
 runs/
@@ -33,7 +33,9 @@ mlruns/
 checkpoints/
 models/
 
-# ---- Data (important) ----
+catboost_info/
+
+# Data
 data/raw/
 data/processed/
 data/interim/
@@ -41,12 +43,12 @@ data/interim/
 *.parquet
 *.feather
 
-# Allow keeping folder structure (optional)
+# Allow keeping folder structure 
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/interim/.gitkeep
 
-# ---- Secrets ----
+# Secrets
 .env
 .env.*
 *secret*
