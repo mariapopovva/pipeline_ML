@@ -1,0 +1,54 @@
+# ---- Python / OS ----
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.egg-info/
+.dist-info/
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+
+# ---- Virtual envs ----
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Logs ----
+*.log
+
+# ---- ML artifacts / outputs ----
+artifacts/
+outputs/
+runs/
+mlruns/
+checkpoints/
+models/
+
+# ---- Data (important) ----
+data/raw/
+data/processed/
+data/interim/
+*.csv
+*.parquet
+*.feather
+
+# Allow keeping folder structure (optional)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+
+# ---- Secrets ----
+.env
+.env.*
+*secret*
+*credentials*
+*.key
