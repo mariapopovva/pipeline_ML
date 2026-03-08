@@ -1,30 +1,30 @@
 # Universal ML template
 
 ## Run
-pip install -r requirements.txt
+pip install -r requirements.txt <br>
 python main.py
 
 
 ## House Prices quick setup
-In `config.py`:
-DATA_CONFIG["target"] = "SalePrice"
-DATA_CONFIG["id_col"] = "Id"
+In `config.py`:<br>
+DATA_CONFIG["target"] = "SalePrice" <br>
+DATA_CONFIG["id_col"] = "Id"<br>
 
-TRAIN_CONFIG["task"] = "regression"
-TRAIN_CONFIG["metric"] = "rmse"
-TRAIN_CONFIG["direction"] = "min"
-TRAIN_CONFIG["target_transform"] = "log1p"
-TRAIN_CONFIG["prediction_column"] = "SalePrice"
+TRAIN_CONFIG["task"] = "regression"<br>
+TRAIN_CONFIG["metric"] = "rmse"<br>
+TRAIN_CONFIG["direction"] = "min"<br>
+TRAIN_CONFIG["target_transform"] = "log1p"<br>
+TRAIN_CONFIG["prediction_column"] = "SalePrice"<br>
 
 
 ## Titanic
-In `config.py`:
-DATA_CONFIG["target"] = "Survived"
-DATA_CONFIG["id_col"] = "PassengerId"
+In `config.py`:<br>
+DATA_CONFIG["target"] = "Survived"<br>
+DATA_CONFIG["id_col"] = "PassengerId"<br>
 
-TRAIN_CONFIG["task"] = "classification"
-TRAIN_CONFIG["metric"] = "accuracy"
-TRAIN_CONFIG["direction"] = "max"
-TRAIN_CONFIG["target_transform"] = None
-TRAIN_CONFIG["prediction_column"] = "Survived"
+TRAIN_CONFIG["task"] = "classification"<br>
+TRAIN_CONFIG["metric"] = "accuracy"<br>
+TRAIN_CONFIG["direction"] = "max"<br>
+TRAIN_CONFIG["target_transform"] = None<br>
+TRAIN_CONFIG["prediction_column"] = "Survived"<br>
 
