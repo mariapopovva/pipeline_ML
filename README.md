@@ -178,7 +178,7 @@ SELECTED_MODELS.append("stacking_hp")
 ### Titanic (Classification)
 **Target:** `Survived`  
 **Submission format:** `PassengerId,Survived`  
-**Primary metric (CV):** Accuracy (higher is better)
+**Primary metric (CV):** Accuracy 
 
 **Best model:** `rf_classifier`  
 **Best CV Accuracy:** **0.8294 ± 0.0182**
@@ -192,8 +192,8 @@ SELECTED_MODELS.append("stacking_hp")
 ### House Prices (Regression)
 **Target:** `SalePrice`  
 **Submission format:** `Id,SalePrice`  
-**Target transform:** `log1p` (train/CV) → `expm1` (submission)  
-**Primary metric (CV):** RMSE on `log1p(SalePrice)` (lower is better)
+**Target transform:** `log1p` (train/CV) 
+**Primary metric (CV):** RMSE on `log1p(SalePrice)` 
 
 **Best model:** `cat_regressor`  
 **Best CV RMSE (log1p):** **0.1228 ± 0.0198**
