@@ -1,12 +1,6 @@
 # Universal ML Template 
 
-A lightweight, multi-purpose ML template for **tabular datasets** (Kaggle-friendly):
-- **Classification** and **Regression**
-- Automatic preprocessing (numeric + categorical)
-- Cross-validation over multiple models
-- Automatic **best-model selection**
-- Optional regression target transform (`log1p` with inverse transform for submission)
-- Optional complex models via **builders** (e.g., stacking)
+A multi-purpose ML template for Kaggle Titanic and House Prices
 
 ---
 
